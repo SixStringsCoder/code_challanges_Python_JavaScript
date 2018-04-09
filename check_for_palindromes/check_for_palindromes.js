@@ -16,7 +16,7 @@ function palindrome(str) {
     } else {
       return false;
     }
-};
+}
 
 palindrome("eye");
 palindrome("My age is 0, 0 si ega ym.");
