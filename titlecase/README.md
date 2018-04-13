@@ -54,7 +54,7 @@ def title_case2(str_param: str) -> str:
 
 Attempting this challenge with JS would play out similar to my 2nd Python example above following the sequence of split, capitalize, join, return. However, there is a tendency with JS to lowercase strings first in order to iron out case inconsistencies in the string.  With the Python examples, I didn't need to lowercase the string since the _string_ module and _.capitalize()_ seemed to be handling that step behind the scenes (even the ALL CAPS test passed the doctest).
 
-Some interesting parts with Javascript involved using a the _.map_ iterator to capitalize each word element in the array by simply accessing the first letter by index to uppercase it then concatenating it with the rest of the word using _.slice()_ from index 1 to the end of the word.  It was kind of like fitting the body with the word with a new capitalized head!  Each newly capitalized word element wsa then pushed to an array, joined and then returned as a string.
+Some interesting parts with Javascript involved using a the _.map_ iterator to capitalize each word element in the array by simply accessing the first letter by index to uppercase it then concatenating it with the rest of the word using _.slice()_ from index 1 to the end of the word.  It was kind of like fitting the body of the word with a new capitalized head!  Each newly capitalized word element was then pushed to an array, joined and then returned as a string.
 
 ```javascript
 function titleCase(str) {
