@@ -16,8 +16,14 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/factorials$Doctests_in_factorials__2_.coverage" NAME="Doctests in factorials (2) Coverage Results" MODIFIED="1522393840019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search__1_.coverage" NAME="Doctests in binary_search (1) Coverage Results" MODIFIED="1524461600943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search.coverage" NAME="Doctests in binary_search Coverage Results" MODIFIED="1524461716818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search__5_.coverage" NAME="Doctests in binary_search (5) Coverage Results" MODIFIED="1524420552952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/factorials$Doctests_in_factorials__1_.coverage" NAME="Doctests in factorials (1) Coverage Results" MODIFIED="1522393779023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search__2_.coverage" NAME="Doctests in binary_search (2) Coverage Results" MODIFIED="1524461766387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/factorials$Doctests_in_factorials.coverage" NAME="Doctests in factorials Coverage Results" MODIFIED="1522393760329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search__3_.coverage" NAME="Doctests in binary_search (3) Coverage Results" MODIFIED="1524420457405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binary_search$Doctests_in_binary_search__4_.coverage" NAME="Doctests in binary_search (4) Coverage Results" MODIFIED="1524420526607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/factorials$Doctests_in_factorials__3_.coverage" NAME="Doctests in factorials (3) Coverage Results" MODIFIED="1522394013562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -26,19 +32,47 @@
       <file leaf-file-name="binary_search.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary_search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="310">
+              <caret line="82" column="2" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="82" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binary_search.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binary_search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binary_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="57" column="99" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="57" selection-end-column="99" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="320">
+                <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+                <folding>
+                  <marker date="1524462683000" expanded="true" signature="2783:4082" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="2924:4080" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="3121:3238" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="3273:3490" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="3497:3577" ph="//..." />
+                  <marker date="1524462683000" expanded="true" signature="3615:3798" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="3830:4076" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="4181:5510" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="4306:5508" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="4597:4737" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="4772:4948" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="4955:5035" ph="//..." />
+                  <marker date="1524462683000" expanded="true" signature="5073:5241" ph="{...}" />
+                  <marker date="1524462683000" expanded="true" signature="5273:5504" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -53,6 +87,7 @@
         <option value="$PROJECT_DIR$/factorials.md" />
         <option value="$PROJECT_DIR$/binary_search.js" />
         <option value="$PROJECT_DIR$/binary_search.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -107,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.Markdown.Preview" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="JavaScriptPreferStrict" value="true" />
@@ -129,8 +164,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in factorials (3)">
-    <configuration default="false" name="Doctests in factorials (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Doctests in binary_search (2)">
+    <configuration default="false" name="Doctests in binary_search (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -141,7 +176,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="factorials" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorials.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -150,7 +185,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Doctests in factorials (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Doctests in binary_search (4)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -161,7 +196,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="factorials" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorials.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -170,7 +205,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Doctests in factorials (3)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Doctests in binary_search (5)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -181,7 +216,47 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="factorials" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorials.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in binary_search" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="factorials" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Doctests in binary_search (2)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="factorials" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binary_search.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -359,17 +434,21 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in factorials" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (3)" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (2)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in factorials (1)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in binary_search (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -387,35 +466,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_factorials - 2018.03.30 at 00h 09m 20s.xml">
-      <configuration name="Doctests in factorials" configurationId="tests" />
+    <history-entry file="Doctests_in_binary_search - 2018.04.22 at 22h 35m 17s.xml">
+      <configuration name="Doctests in binary_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_factorials - 2018.03.30 at 00h 09m 56s.xml">
-      <configuration name="Doctests in factorials" configurationId="tests" />
+    <history-entry file="Doctests_in_binary_search_(1) - 2018.04.22 at 22h 30m 50s.xml">
+      <configuration name="Doctests in binary_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_factorials_(1) - 2018.03.30 at 00h 09m 39s.xml">
-      <configuration name="Doctests in factorials (1)" configurationId="tests" />
+    <history-entry file="Doctests_in_binary_search_(1) - 2018.04.22 at 22h 31m 18s.xml">
+      <configuration name="Doctests in binary_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_factorials_(2) - 2018.03.30 at 00h 10m 40s.xml">
-      <configuration name="Doctests in factorials (2)" configurationId="tests" />
+    <history-entry file="Doctests_in_binary_search_(1) - 2018.04.22 at 22h 31m 49s.xml">
+      <configuration name="Doctests in binary_search (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Doctests_in_factorials_(3) - 2018.03.30 at 00h 13m 33s.xml">
-      <configuration name="Doctests in factorials (3)" configurationId="tests" />
+    <history-entry file="Doctests_in_binary_search_(1) - 2018.04.22 at 22h 33m 05s.xml">
+      <configuration name="Doctests in binary_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_binary_search_(1) - 2018.04.22 at 22h 33m 21s.xml">
+      <configuration name="Doctests in binary_search (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_binary_search_(2) - 2018.04.22 at 22h 36m 06s.xml">
+      <configuration name="Doctests in binary_search (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_binary_search_(3) - 2018.04.22 at 11h 07m 37s.xml">
+      <configuration name="Doctests in binary_search (3)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_binary_search_(4) - 2018.04.22 at 11h 08m 46s.xml">
+      <configuration name="Doctests in binary_search (4)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_binary_search_(5) - 2018.04.22 at 11h 09m 13s.xml">
+      <configuration name="Doctests in binary_search (5)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119456366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -456,19 +550,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/factorials.md" />
-    <entry file="file://$PROJECT_DIR$/binary_search.js">
+    <entry file="file://$PROJECT_DIR$/binary_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="314">
+          <caret line="57" column="99" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="57" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binary_search.py">
+    <entry file="file://$PROJECT_DIR$/binary_search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="310">
+          <caret line="82" column="2" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="82" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="320">
+            <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+            <folding>
+              <marker date="1524462683000" expanded="true" signature="2783:4082" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="2924:4080" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="3121:3238" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="3273:3490" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="3497:3577" ph="//..." />
+              <marker date="1524462683000" expanded="true" signature="3615:3798" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="3830:4076" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="4181:5510" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="4306:5508" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="4597:4737" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="4772:4948" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="4955:5035" ph="//..." />
+              <marker date="1524462683000" expanded="true" signature="5073:5241" ph="{...}" />
+              <marker date="1524462683000" expanded="true" signature="5273:5504" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
