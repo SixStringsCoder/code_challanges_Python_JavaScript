@@ -4,20 +4,21 @@ function binarySearch(low, high, numberPicked) {
   "use strict";
   var lowNumber = low;
   var highNumber = high;
-  var number_of_guesses = 0;
+  var number_of_guesses = 1;
   var guess;
 
   while (guess != numberPicked) {
       // make a guess at half-point between low and high then round down
-      guess = Math.floor((highNumber - lowNumber) / 2 + lowNumber);
+      guess = Math.floor((highNumber + lowNumber) / 2);
 
       if (numberPicked < low || numberPicked > high) {
           console.log("The number you picked doesn't fall within the low to high range.");
+          return null;
           break;
       }
 
       if (guess == numberPicked) {
-        console.log("Correct! The number is " + guess + ". It took " + number_of_guesses + " guesses using the binary search algorithm.");
+        console.log("Correct! The number is " + guess + ". It took " + number_of_guesses + " attempt(s) using the binary search algorithm.");
         number_of_guesses += 1;
         return guess;
         break;
@@ -37,11 +38,12 @@ function binarySearch(low, high, numberPicked) {
   }
 }
 
+binarySearch(1, 100, 50); // returns "Correct! The number is 50. It took 1 attempt(s) using the binary search algorithm."
 binarySearch(1, 5, -2); // returns "The number you picked doesn't fall within the low to high range."
-binarySearch(1, 5, 2); // returns "Correct! The number is 2. It took 2 guesses using the binary search algorithm."
-binarySearch(1, 100, 34); // returns "Correct! The number is 34. It took 4 guesses using the binary search algorithm."
-binarySearch(20, 50, 21); // returns "Correct! The number is 21. It took 3 guesses using the binary search algorithm."
-binarySearch(1, 500000, 456123); // returns "Correct! The number is 456123. It took 18 guesses using the binary search algorithm."
+binarySearch(1, 5, 2); // returns "Correct! The number is 2. It took 2 attempt(s) using the binary search algorithm."
+binarySearch(1, 100, 34); // returns "Correct! The number is 34. It took 4 attempt(s) using the binary search algorithm."
+binarySearch(20, 50, 21); // returns "Correct! The number is 21. It took 3 attempt(s) using the binary search algorithm."
+binarySearch(1, 500000, 456123); // returns "Correct! The number is 456123. It took 18 attempt(s) using the binary search algorithm."
 
 
 // JS 6 syntax
@@ -54,10 +56,11 @@ const binarySearch2 = (low, high, numberPicked) => {
 
   while (guess != numberPicked) {
       // Make a guess at halfway-point between low and high then round float down
-      guess = Math.floor((highNumber - lowNumber) / 2 + lowNumber);
+      guess = Math.floor((highNumber + lowNumber) / 2);
       // If number picked is outside of low-high range, state that and break the loop
       if (numberPicked < low || numberPicked > high) {
           console.log(`The number picked, ${numberPicked}, doesn't fall within the range of ${low} to ${high}.`);
+          return null;
           break;
       }
 
