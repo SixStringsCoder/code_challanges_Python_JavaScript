@@ -42,10 +42,14 @@ def confirm_ending(string: str, target: str) -> bool:
     else:
         return False
 
-
-# def confirm_ending(string: str, target: str) -> bool:
-#     slice_at = slice(-1, -len(target))
-#     if string[slice_at] == target:
-#         return True
-#     else:
-#         return False
+# example 3
+def confirm_ending(string: str, target: str) -> bool:
+    # Start slice from last char (-1), stepping backward one char at a time (-1), the length of target -(len(target)+1)
+    slice_at = slice(-1, -(len(target)+1), -1)
+    # slice_at is ordered backwards so reverse to make forward order
+    str_end_forward = string[slice_at][::-1]
+    # Compare forward string with target
+    if str_end_forward  == target:
+        return True
+    else:
+        return False
