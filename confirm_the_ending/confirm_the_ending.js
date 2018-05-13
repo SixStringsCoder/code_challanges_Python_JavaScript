@@ -59,6 +59,11 @@ function confirmEnding5(str, target) {
   }
 }
 
+
+// JavaScript 6
+const confirmEnding6 = (str, target) => str.endsWith(target) ? true : false
+
+
 confirmEnding("Bastian", "n");
 confirmEnding("Open sesame", "pen");
 confirmEnding2("Connor", "n");
@@ -66,7 +71,8 @@ confirmEnding2("If you want to save our world, you must hurry. We dont know how 
 confirmEnding3("Walking on water and developing software from a specification are easy if both are frozen", "specification");
 confirmEnding4("He has to give me a new name", "name");
 confirmEnding5("Open sesame", "same");
-
+confirmEnding6("Walking on water and developing software from a specification are easy if both are frozen", "specification");
+confirmEnding6("He has to give me a new name", "name");
 
 
 // JavaScript 6
