@@ -1,23 +1,13 @@
+'''
+DUNGEON ESCAPE is a command-line game made with Python 3.6.  The objective of the game is to move throughout the dungeon-grid
+to find the door to safety and avoiding the monster.
+
+'''
+
+
 import os
+import time
 import random
-
-# draw grid
-
-# pick random location for player
-
-# pick random loction for exit door
-
-# pick random location for monster
-
-# draw player in grid
-
-# take input for movement
-
-# move player unless invalid move past edges of grid
-
-# check for win or loss
-
-# clear the screen and redraw the grid
 
 CELLS = [ (0, 0), (1, 0), (2, 0), (3, 0), (4, 0),
           (0, 1), (1, 1), (2, 1), (3, 1), (4, 1),
@@ -90,6 +80,19 @@ def get_moves(player):
         moves.remove("DOWN")
     return moves
 
+def incident():
+    unfortunate_incident = ["A BUG FLEW INTO YOUR NOSE",
+                            "A TORCH HAS CAUGHT YOUR HAIR ON FIRE",
+                            "A SPIDER HAS BITTEN YOUR EAR LOBE",
+                            "YOU'VE BLOODIED YOUR NOSE AND HAVE NO TISSUE.",
+                            "LOST THE ONLY KIDNEY YOU HAVE LEFT",
+                            "YOUR 401k HAS JUST LOST HALF ITS VALUE",
+                            "YOU'VE INFLAMED AN OLD FOOTBALL INJURY FROM HIGH SCHOOL",
+                            "HEAR YOUR WIFE IN YOUR HEAD CALLING YOU CLUMSY"
+                            ]
+    occurred = random.randint(0, len(unfortunate_incident)-1)
+    return unfortunate_incident[occurred]
+
 def game_loop():
     monster, door, player = get_locations()
     playing = True
@@ -98,13 +101,13 @@ def game_loop():
         clear_screen()
         draw_map(player, monster, door)
         valid_moves = get_moves(player)
-        print("You're currently in room {}".format(player))
-        print("You can move {}".format(", ".join(valid_moves)))
-        print("Enter QUIT to quit.")
+        # print("You're currently in room {}".format(player))
+        print("You can move {}".format(" or ".join(valid_moves)))
+        print("Enter Q to quit.")
         get_locations()
         move = input("> ").upper()
 
-        if move == "QUIT":
+        if move == "Q":
             print("\n** Planning your escape for another day? Very well. **\n")
             break
         if move in valid_moves:
@@ -117,15 +120,16 @@ def game_loop():
                 print("\n *** YOU HAVE LOCATED THE DOOR OUT OF THIS HELL HOLE.  RUN! I SAY, RUN, GOOD SIR!")
                 playing = False
         else:
-            input("\n *** OUCH!!! YOU JUST RAN INTO A WALL! ***\n")
+            print("\n *** YOU JUST RAN INTO A WALL AND {}. GATHER YOURSELF AND TRY AGAIN. ***\n".format(incident()))
+            time.sleep(3.300)
     else:
         if input("Play Again? [Y/n] ").lower() != "n":
             game_loop()
         else:
-            print("\n **Saving your strength for another day, are you? Ok. Bye.")
+            print("\n *** Saving your strength for another day, are you? Very well. Remember to drink Kombucha to aid in digestion!")
 
 clear_screen()
-print("Welcome to the dungeon")
-input("Press RETURN to start.")
+print("You're trapped in the dungeon.")
+input("Press RETURN to start your escape.")
 clear_screen()
 game_loop()
